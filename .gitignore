@@ -1,0 +1,53 @@
+# ─── Environment & secrets ─────────────────────────────────────────────────
+.env
+*.env.local
+backend/.env
+*.pem
+*.key
+gee_key*.json
+service_account*.json
+
+# ─── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.venv/
+backend/env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+backend/floodvision.db
+backend/logs/
+backend/uploads/
+backend/test_results.txt
+backend/test_import.py
+backend/test_routes.py
+backend/run_tests.py
+
+# ─── Node / Frontend ───────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── IDE ───────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ─── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Uploads / outputs ─────────────────────────────────────────────────────
+uploads/
+*.pdf
+*.csv
+!backend/.env.example
